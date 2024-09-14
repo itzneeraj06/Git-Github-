@@ -1,0 +1,24 @@
+git config => To set the basic configurations on Git like your name and email
+  git config –-global user.name “yourname” 
+  git config –-global user.email "nrj0006@gmail.com"
+
+git init => To create a local git repository for us in our store folder
+git status => check file status (tracked or not )
+git add filename => add file in staging area 
+git add . => all file stage
+git commit -m "message" => To commit our changes(taking a snapshot) and provide a message to remember for future reference
+git log => check history of commits
+
+git reset -hard "commitid" => in the case of messed up just a step back of previous commit 
+git remote add origin "https://path" => create a new branch on remote address (iska matlab remote wale address par ek origin name se ek branch bna do)
+git remove rm => To remove a remote from our local repository
+
+git push -u origin master =>To push all the contents of our local repository that belong to the master branch to the server(Global repository).
+git clone https://github.com/madaan123/MyAlgorithms.git
+
+git branch => to check list of branch 
+git branch branchname => create a new branch
+git branch -d Testing =>To delete the Testing branch
+
+git merge Testing => To merge the Testing branch with the master branch.  
+  
